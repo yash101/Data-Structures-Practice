@@ -2,8 +2,8 @@
 
 // A node in an AVL tree
 typedef struct Node {
-	Node* left;
-	Node* right;
+	struct Node* left;
+	struct Node* right;
 
 	size_t weight;
 } Node;
